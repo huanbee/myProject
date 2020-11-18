@@ -10,7 +10,7 @@ const   {Footer} = Layout;
 class FooterLayout extends Component {
     render() {
         return (
-            <Footer style={{ textAlign: 'center' }}>HuanBee <FontAwesomeIcon icon={faCoffee} />©2020 <br></br>Made with <HeartFilled /> by Nguyễn Tiến Huấn</Footer>
+            <Footer style={{ textAlign: 'center', minWidth:'960px' }}>HuanBee <FontAwesomeIcon icon={faCoffee} />©2020 <br></br>Made with <HeartFilled /> by Nguyễn Tiến Huấn</Footer>
         );
     }
 }

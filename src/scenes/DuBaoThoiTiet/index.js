@@ -48,14 +48,10 @@ export default function Dubaothoitiet() {
     let bgs = document.getElementById("bg1");
     let d = new Date();
     if (d.getHours() > 18) {
-      bgs.style.background = "url('images/night.jpg')";
-      bgs.style.backgroundPosition = "center";
-      bgs.style.backgroundRepeat = "no-repeat";
+      bgs.style.background = "url('images/night.jpg') no-repeat center center fixed";
       bgs.style.backgroundSize = "cover";
     } else {
-      bgs.style.background = "url('images/day.jpg')";
-      bgs.style.backgroundPosition = "center";
-      bgs.style.backgroundRepeat = "no-repeat";
+      bgs.style.background = "url('images/day.jpg') no-repeat center center fixed";
       bgs.style.backgroundSize = "cover";
     }
   }, [getLocal]);
