@@ -12,7 +12,7 @@ import axios from 'axios';
 
 const qs = require('qs');
 const http = axios.create({
-  baseURL: 'http://dataservice.accuweather.com/',
+  baseURL: 'https://dataservice.accuweather.com/',
   timeout: 18000,
 });
 
