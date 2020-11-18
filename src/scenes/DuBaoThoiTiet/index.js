@@ -49,10 +49,12 @@ export default function Dubaothoitiet() {
     let d = new Date();
     if (d.getHours() > 18) {
       bgs.style.background = "url('images/night.jpg')";
+      bgs.style.backgroundPosition = "center";
       bgs.style.backgroundRepeat = "no-repeat";
       bgs.style.backgroundSize = "cover";
     } else {
       bgs.style.background = "url('images/day.jpg')";
+      bgs.style.backgroundPosition = "center";
       bgs.style.backgroundRepeat = "no-repeat";
       bgs.style.backgroundSize = "cover";
     }
