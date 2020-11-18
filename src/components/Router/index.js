@@ -11,6 +11,7 @@ const RouterIndex = () => {
     <Switch>
         <Route exact path="/" component={Dubaothoitiet}></Route>
         <Route path="/myProfile" component={myProfile}></Route>
+        <Route path="/myProject" component={Dubaothoitiet}></Route>
         <Route path="/duBaoThoiTiet" component={Dubaothoitiet}></Route>
         <Route path="/du-bao-thoi-tiet" component={Dubaothoitiet}></Route>
         <Route path="/home" component={DefaultLayout}></Route>
