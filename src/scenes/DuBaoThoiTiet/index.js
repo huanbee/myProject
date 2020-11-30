@@ -273,7 +273,7 @@ export default function Dubaothoitiet() {
                       ) : null}
                     </>
                   ))}
-                  <div className="tt4day center">
+                  <div className="tt4day">
                     {dataForecasts.map(
                       (item, index) => (
                         (wDay = weekday(item.Date)),
